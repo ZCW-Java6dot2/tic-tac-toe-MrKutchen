@@ -27,7 +27,7 @@ public class PlayerTies2Test {
         String expectedWinner = "";
 
         // When
-        String actualWinner = board.getWinner();
+        String actualWinner = board.getWhoWon();
 
         // Then
         Assert.assertEquals(expectedWinner, actualWinner);
