@@ -27,7 +27,7 @@ public class PlayerWinsColumn1Test {
         String expectedWinner = "X";
 
         // When
-        String actualWinner = board.getWinner();
+        String actualWinner = board.getWhoWon();
 
         // Then
         Assert.assertEquals(expectedWinner, actualWinner);
